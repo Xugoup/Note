@@ -1,4 +1,9 @@
 # Ch1-Introduction
+## Software engineering four properties
+1. Conformity (一致性)
+2. Invisibility (不可见性)
+3. Complexity (复杂性)
+4. Changeability (演化性)
 ## Software Products(两种软件类型的区别)
 ### Generic products (PC software such as Photoshop)
 **开发者做决定**
