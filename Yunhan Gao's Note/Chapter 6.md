@@ -1,4 +1,7 @@
 # Ch6-Architectural Design
+
+## Coupling and Cohesion
+A good architecture **minimizes coupling between modules** and **maximizes the cohesion of each module**.
 ## 4+1 View Model of Software Architecture
 1. **Logical view:** which shows the key abstractions in the system as objects or object classes.
 2. **Process view:** which shows how, at run-time, the system is composed of interacting processes.
@@ -14,6 +17,11 @@
 **When use:**
 Commonly used in data processing applications (both  batch- and transaction-based)  where inputs are processed in separate stages to generate related outputs. (数据处理应用程序)
 
+**Examples:**
+Unix程序。一个程序的输出可以链接到另一个程序的输入。
+
+编译器。连续过滤器执行词法分析，解析、语义分析和代码生成。
+
 ### Client-server Architecture
 >A system that follows the client-server pattern is organized as a set of services and associated servers, and clients that access and use the services.
 
@@ -21,6 +29,9 @@ Commonly used in data processing applications (both  batch- and transaction-base
 Used  when  data  in  a  shared  database  has  to  be  accessed  from  a range of locations. Because servers can be replicated, may also be used when the load on a system is variable.
 
 ### Event-based Architecture
+**When use:**
+Use it when your application can be factored in functionally separable modules that are capable of communicating through simple messages.
+
 **Examples:**
 - Debugging systems (listen for particular breakpoints)
 - Graphical user interfaces
