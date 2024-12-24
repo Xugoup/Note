@@ -1,4 +1,11 @@
 # Ch5-System Modeling
+
+## Activity Diagram
+1. **描述系统的动态方面**：Describe dynamic aspects of the system
+3. **建模业务工作流**：To model business workflows
+5. **描述系统功能**：To describe a system function that is represented within a use case or between use cases.
+7. **在操作规范中描述操作逻辑**：In operation specifications, to describe the logic of an operation
+   
 ## Class Diagram
 Class diagram is a type of static structure diagram that **describes the structure of a system** by showing the system’s:
 - classes
@@ -41,3 +48,6 @@ Class diagram is a type of static structure diagram that **describes the structu
 - 将系统作为一个整体
 - 和其他类重复
 - 太模糊或者太具体
+
+
+## State machine diagram
