@@ -1,7 +1,21 @@
 # Ch2-Software Processes
+
+## Software Processes involve(四个步骤)
+ 1. **Specification**: defining what the system should do
+ 2. **Design and implementation**: defining the organization of the system and implementing the system
+ 3. **Validation**: checking that it does what the customer wants
+ 4. **Evolution**: changing the system in response to changing customer needs
+
+## Coping with Change
+- **Change anticipation**: where the software process includes activities that can anticipate possible changes before significant rework is required.
+
+- **Change tolerance**: where the process is designed so that changes can be accommodated at relatively low cost.
+
+
 ## Software Process Models (各种模型特点，优缺点，适用场景)
 ### Waterfall model
 **Plan-driven model. Separate and distinct phases of specification and development.**
+
 **Benefits:**
 - Easy to understand and implement.
 - Reinforces good habits: define-before-design, design-before-code.
@@ -9,17 +23,18 @@
 - Works well on mature products and weak teams.
 
 **Problems:**
-- The difficulty of accommodating change after the process is underway. In principle, a phase has to be complete before moving onto the next phase. (难以使用开发中的变化)
+- The difficulty of accommodating change after the process is underway. In principle, a phase has to be complete before moving onto the next phase. (难以适应开发中的变化)
 - This model is only appropriate when the requirements are well-understood and changes will be fairly limited during the design process. (只有充分理解需求，在设计过程中更改很少部分时才适用)
 
 ![](./Pic/屏幕截图%202024-12-21%20114122.png
 )
 ### Prototype Model
-**Def:**
-A prototype is an initial version of a system used to demonstrate concepts and try out design options.
+An initial version of a system used to demonstrate concepts and try out design options.
+
 **Can be used in:**
 - The requirements engineering process to help with requirements elicitation and validation
 - In design processes to explore options and develop a UI design
+
 **Benefits:**
 - Improved system usability
 - A closer match to users’ real needs
@@ -28,10 +43,16 @@ A prototype is an initial version of a system used to demonstrate concepts and t
 ![](./Pic/屏幕截图%202024-12-21%20123432.png)
 
 ### Incremental Model
-**Def:**
-- 不是将系统作为单个交付交付，而是将开发和交付**分解为增量**，每个增量交付所需功能的一部分。
-- **用户需求优先级高**，优先级高需求包含在早期的增量中。
-- 一旦开始开发增量，则需求通过稍后的需求被**冻结**，后续增量可以继续发展。
+- The development and delivery is broken down into increments with each increment delivering part of the 
+required functionality.
+
+  不是将系统单个交付，而是将开发和交付**分解为增量**，每个增量交付所需功能的一部分
+- User requirements are prioritised and the highest priority requirements are included in early increments.
+  
+  **用户需求被划分优先级**，最高优先级的需求被包含在早期的增量中
+- Once the development of an increment is started, the requirements are frozen though requirements for later increments can continue to evolve.
+  
+  一旦开始开发增量，需求就被**冻结**，后续增量可以继续发展
 
 **Benefits:**
 - The cost of accommodating changing customer requirements is reduced. (适应变化的成本降低)
