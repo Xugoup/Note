@@ -18,9 +18,10 @@ A good architecture **minimizes coupling between modules** and **maximizes the c
 Commonly used in data processing applications (both  batch- and transaction-based)  where inputs are processed in separate stages to generate related outputs. (数据处理应用程序)
 
 **Examples:**
-Unix程序。一个程序的输出可以链接到另一个程序的输入。
 
-编译器。连续过滤器执行词法分析，解析、语义分析和代码生成。
+Unix程序: 一个程序的输出可以链接到另一个程序的输入。
+
+编译器：连续过滤器执行词法分析，解析、语义分析和代码生成。
 
 ### Client-server Architecture
 >A system that follows the client-server pattern is organized as a set of services and associated servers, and clients that access and use the services.
