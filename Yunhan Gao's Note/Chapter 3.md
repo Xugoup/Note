@@ -11,6 +11,13 @@
 - Responding to change over following a plan (对变化做出反应由于跟随计划)
 
 ## Agile Method Applicability (敏捷方法适应情况)
+- 需求不确定或频繁变化
+- 客户和开发团队之间的紧密合作
+- 快速交付和早期反馈
+- 团队规模较小
+- 技术创新或探索性项目
+- 高频繁的发布需求
+- 对质量有较高要求
 - Development of a **small** or **medium-sized** product
 - **Custom system development** within an organization, where there is a clear commitment from the **customer to become involved in the development process** and where there are ***few external rules and regulations that affect the software***.
 
