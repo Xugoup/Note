@@ -122,6 +122,10 @@ A facilitator who arranges daily meetings, tracks the backlog of work to be done
 - The Product Backlog is an ordered list of everything that is known to be needed in the product. 
 - The Sprint Backlog is the set of Product Backlog items selected for the Sprint, plus a plan for delivering the product Increment and realizing the Sprint Goal. 
 
+**总结关系：**
+- Product Owner 负责定义 Product Backlog，根据市场需求和业务价值排序，并确保团队有正确的目标。
+- Development Team 根据 Product Backlog 中的优先事项选择任务，制定 Sprint Backlog，并在冲刺过程中实现增量交付 Working Software。
+- Scrum Master 协调各方，确保 Scrum 流程的顺畅执行，支持团队解决障碍，并保持对工作进展的监控。
 
 **Formal events for inspection and adaptation**(四种调整/检查事件)：
 - Sprint Planning
