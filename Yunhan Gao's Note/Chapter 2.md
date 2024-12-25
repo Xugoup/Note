@@ -1,11 +1,5 @@
 # Ch2-Software Processes
 
-## Software Processes involve(四个步骤)
- 1. **Specification**: defining what the system should do
- 2. **Design and implementation**: defining the organization of the system and implementing the system
- 3. **Validation**: checking that it does what the customer wants
- 4. **Evolution**: changing the system in response to changing customer needs
-
 ## Coping with Change
 - **Change anticipation**: where the software process includes activities that can anticipate possible changes before significant rework is required.
 
